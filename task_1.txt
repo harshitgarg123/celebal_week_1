@@ -1,0 +1,24 @@
+$ touch file1.txt
+
+$ ls -l  file1.txt
+
+$ chmod 755 file1.txt
+owner - read, write, execute
+group - read, write
+others - read, write
+
+$ chmod 777 file1.txt
+owner - read, write, execute
+group - read, write, execute
+others - read, write, execute
+
+$ chmod 555 file1.txt
+owner - read, execute
+group - read, execute
+others - read, execute
+
+
+
+
+
+

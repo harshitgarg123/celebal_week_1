@@ -1,0 +1,66 @@
+$ mkdir task_3
+
+$ cd task_3
+
+$ touch evening
+
+$  echo 'this is evening report file' > evening
+
+$ cat evening
+
+$ ls -l evening
+
+$ pwd
+
+$ mkdir -p folder1/f11 folder1/f12 folder2/f21
+
+$ tree
+
+$ cd folder1/f11
+
+$ echo 'This is file under the folder1 and then f11 ' > file1.txt
+
+$ cat file1.txt
+
+$ cd ..
+$ cd ..
+
+$ cd folder2/f21
+
+$ echo 'This is file under the folder2 and  f21 ' > file2.txt
+
+$ cat file.txt
+
+$ cd ..
+$ cd ..
+
+$ cp folder1/f11/file1.txt folder2/f21/
+
+$ ls folder2/f21
+
+$ mv folder1/f11/file1.txt folder1/f21/
+
+$ ls folder1/f11 
+
+$ ls folder1/f21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+$ mkdir Monday
+
+$ cd Monday
+
+$ mkdir m1 m2 m3
+
+$ touch file1.txt file2.txt file3
+
+$ ls 
+
+$ ls -l
+
+$ rm file1.txt
+
+$ touch m1/helo.c
+
+$ cd m1
+
+$ mkdir mon1 mon2
+
+$ ls
+
+$ cd ..
+
+$ rm -r m1
+
+$ mkdir -p p1/p2/p3
+
+$ mkdir folder1
+
+$ rmdir folder1
+
+$ pwd
+
+$ mv file1.txt file2.txt
+
+$ touch newfile
+
+$ cp newfile mon1/
+
+
+
+
+
+
+
+
