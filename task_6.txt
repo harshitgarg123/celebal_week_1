@@ -1,0 +1,32 @@
+$ sudo apt update
+
+$ sudo apt install git
+
+git setup 
+configuration 
+
+$ git config --global user.name "Harshit garg"
+$ git config --global user.email "harshit63gg@gmail.com"
+
+
+$ git config --list
+
+Basic git commands
+
+
+$ git init
+
+$ git status
+
+$ cd Project
+
+$ git add .
+
+$ git commit -m "files are saved"
+
+$ git remote add origin https://github.com/harshitgarg123/repo.git
+
+$ git push -u origin main
+
+$ git pull origin main
+
