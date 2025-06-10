@@ -1,0 +1,22 @@
+Merge types, Create a new branch then commit and push the changes to new branch and merge it with the master branch using pull request.
+
+$ mkdir Project_2
+
+$ cd Project_2
+
+$ git init
+
+$ git status
+
+$ git checkout -b branch_1
+
+$ echo "This is a branch_1 file" > newfile.txt
+
+$ git add newfile.txt
+
+$ git push -u origin branch_1
+
+$ git checkout master
+
+$ git pull origin master
+
