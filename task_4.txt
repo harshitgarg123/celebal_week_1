@@ -1,0 +1,42 @@
+creating a user
+$ sudo adduser harshit
+
+creating a group
+$ sudo groupadd linuxusers
+
+adding user to that group
+$ sudo usermod -aG linuxusers harshit
+
+creating a file
+$ sudo touch /home/harshit/hello.txt
+
+$ sudo ls -l /home/harshit/hello.txt
+
+adding permissions to that file
+$ sudo chmod 764 /home/harshit/hello.txt
+
+user -  read, write, execute
+group - read, write
+others - read
+
+
+Adding the users to another group using usermod
+$ sudo usermod -aG sudo harshit
+
+
+deleting a user
+$ sudo userdel harshit
+
+
+deleting a group
+$ sudo groupdel linuxusers
+
+
+
+
+
+
+
+
+
+
