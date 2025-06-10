@@ -1,0 +1,53 @@
+$ sudo adduser developer
+
+$ sudo su developer
+
+$ pwd
+
+$ ls
+
+$ mkdir folder1
+$ cd folder1
+
+$ history
+
+$ touch file1.txt
+
+$ cat file1.txt
+
+$ nano file1.txt
+
+$ cat file1.txt
+
+$ sudo chmod 760 file1.txt
+
+$ ls -l
+
+$ mkdir f1 f3 f2
+
+$ cd f1
+
+$ pwd
+
+$ touch helo.c
+
+$ gcc --version
+
+$ sudo apt-get update
+
+$ sudo apt-get install gcc
+$ gcc --version
+
+$ touch para.txt
+
+$ echo ' This is a paragraph' > para.txt
+
+$ head para.txt
+
+$ tail para.txt
+
+$ cp para.txt text.txt
+
+$ rm para.txt
+
+$ ls 
