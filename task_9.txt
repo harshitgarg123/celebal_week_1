@@ -1,0 +1,20 @@
+Undo the last commit or remove the last created file from remote repo using CLI
+
+$ git reset --soft HEAD~1
+
+$ git push origin branch-name --force
+
+
+
+$ cd Project_2
+
+$ ls
+$ rm newfile.txt
+
+$ git add newfile.txt
+
+$ git commit -m "removed the new file"
+
+$ git push origin branch_1
+
+
