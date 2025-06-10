@@ -1,0 +1,27 @@
+Practice More git commands
+
+$ mkdir newproject
+$ cd newproject
+
+$ git init
+
+$ git clone <taget_repo_url>
+
+$ git status
+
+$ git branch
+
+$ git branch -a
+
+
+creating new branch
+
+$ git branch newbranch
+
+$ git checkout newbranch
+
+$ echo "This is new branch file" > file11.txt
+
+$ git add file11.txt
+
+$ git commit -m "new branch file"
