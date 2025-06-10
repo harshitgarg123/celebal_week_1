@@ -1,0 +1,27 @@
+Branching and merging in Git, Resolve a merge conflicts
+
+
+$ mkdir folder_3
+cd folder_3
+
+creating and switing to new branch
+
+$ git checkout -b branch3
+
+$ echo "new branch file branch 3" > file3.txt
+
+$ git add file3.txt
+
+$ git commit -m "branch 3 file add"
+
+
+switching to main branch and merging them
+
+$ git checkout main
+
+$ git merge branch3
+
+
+
+
+
